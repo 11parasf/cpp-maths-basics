@@ -1,0 +1,12 @@
+# Ignore executables
+*.exe
+a.out
+
+# Ignore object files
+*.o
+
+# Ignore build folders
+build/
+
+# Ignore editor files
+.vscode/
