@@ -1,5 +1,24 @@
 #include <iostream>
 
+// Optimal Solution
+void divisors(int num)
+{
+    std::cout << "Divisors : " << " ";
+    // Loop till sqrt(num)
+    for (int i = 0; i * i <= num; i++)
+    {
+        if (num % i == 0)
+        {
+            std::cout << i << " ";
+            // Edge case
+            if (num / i != i)
+            {
+                std::cout << num / i << " ";
+            }
+        }
+    }
+}
+
 int main()
 {
     // taking input from user
@@ -8,7 +27,9 @@ int main()
     std::cout << "Enter a number : ";
     std::cin >> num;
 
-    // Print divisors
+    divisors(num);
+
+    // Brute Force Solution
     std::cout << "Divisors : ";
     for (int i = 1; i <= num; i++)
     {
