@@ -1,6 +1,6 @@
 #include <iostream>
 
-// Check Prime
+// Check Prime TC- 0(n)
 bool isPrime(int n)
 {
     int count = 0;
@@ -23,7 +23,7 @@ int main()
     std::cout << "Enter a number :";
     std::cin >> n;
 
-    // Prime factors
+    // Prime factors TC - 0(n)
     std::cout << "Prime factors : ";
     for (int i = 2; i <= n; i++)
     {
