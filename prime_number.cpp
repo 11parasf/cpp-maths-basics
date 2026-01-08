@@ -6,7 +6,7 @@ int main()
     std::cout << "Enter a number : ";
     std::cin >> num;
 
-    // Brute Force TC - O(num)
+    // Brute Force TC 
     int count = 0;
     for (int i = 1; i <= num; i++)
     {
