@@ -53,3 +53,4 @@ int main()
 
     return 0;
 }
+//More optimal solution using sieve-of-eratosthenes
